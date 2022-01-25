@@ -1,4 +1,5 @@
 import MeetupList from "../components/meetups/MeetupList";
+import React, { useEffect, useState } from 'react'
 
 const DUMMY_MEETUPS = [
 	{
@@ -17,6 +18,24 @@ const DUMMY_MEETUPS = [
 	},
 ];
 
-export default function HomePage() {
-	return <MeetupList meetups={DUMMY_MEETUPS} />
+export function HomePage(props) { 
+
+	return <MeetupList meetups={props.meetups} />
 }
+
+//Static site generation SSG
+export async function getStaticProps(){
+	//Next js will wait for this promisse to resolve
+	//getStaticProps is reserved name
+	//this function only works in pages files
+	//always retun thi object
+
+	//this data fetching executes during the Buil process
+	return {
+		props: {
+			meetups: DUMMY_MEETUPS
+		}
+	}
+}
+
+export default HomePage;
