@@ -27,7 +27,7 @@ Front-end web-application for sharing social meetups
 # :computer: Demonstration of the application
 
 <p align="center">
-  <img src="https://ik.imagekit.io/mcvhbcq4zu/web_HZiFLz2c8.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1648483986438" width="1400px"/>
+  <img src="https://ik.imagekit.io/mcvhbcq4zu/web_DN_L9V35Qv.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1648497065869" width="1400px"/>
 </p>
 
 <br>
@@ -38,7 +38,7 @@ Front-end web-application for sharing social meetups
 <br>
 
 ## Deployed URL
-  - https://meetups-next-js-blue.vercel.app/
+  - https://meetups-next-js-iota.vercel.app/
 
 ---
 
