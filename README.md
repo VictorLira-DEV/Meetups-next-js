@@ -24,27 +24,21 @@
 
 Front-end web-application for sharing social meetups
 
-[Live Demo of MeetUps App](https://meetups-app-delta.vercel.app/)
+# :computer: Demonstration of the application
 
-## Project Specifications
+<p align="center">
+  <img src="https://ik.imagekit.io/mcvhbcq4zu/web_HZiFLz2c8.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1648483986438" width="1400px"/>
+</p>
 
--   Full-stack framework built upon React
--   Persists data via [MongoDB](https://www.mongodb.com/)
--   User defined meetup details and images
--   API Routes for creating and fetching data
--   Server-side rendering
--   Deployed on Vercel
+<br>
 
----
-
-#### This application utilizes .env.local file to host environment variables. To utilize configure:
-
-  - ##### MONGO_DB_AUTH="*YourMongoDBUserAuth*"
-
----
+<h3 align="center"> 
+	Application status: Developed ✔️
+</h3>
+<br>
 
 ## Deployed URL
-  - https://meetups-app-delta.vercel.app/
+  - https://meetups-next-js-blue.vercel.app/
 
 ---
 
